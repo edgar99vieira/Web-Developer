@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #eef0ef, #fed6e3);
+}
+
+header {
+    background-color: #4CAF50;
+    color: rgb(250, 245, 245);
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+
+.container {
+    margin: 20px;
+}
+
+.animal-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.animal-card {
+    border: 2px solid #f5eaea;
+    border-radius: 10px;
+    width: 30s0px;
+    text-align: center;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 4px 6px rgba(19, 18, 18, 0.1);
+}
+
+.animal-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.animal-info {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #111111;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.production-stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 300px); /* Ajusta com base no tamanho da janela e outros elementos */
+}
+
+.chart {
+    max-width: 80%; /* Evita que ultrapasse o tamanho da janela */
+    max-height: 80%; /* Garante que respeite o espaço disponível */
+    height: auto;
+    width: auto;
+}
